@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #fff0f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+/* Header */
+header {
+  background: linear-gradient(to right, #ff7bb2, #7f9bff);
+  color: white;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  height: 90vh;
+  background: url('images/hero-bg.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-text {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background: #e91e63;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #c2185b;
+}
+
+/* Features */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.feature-box {
+  background: linear-gradient(to right, #f8bbd0, #b2dfdb);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  flex: 1 1 30%;
+  min-width: 250px;
+}
+
+.feature-box h3 {
+  color: #0a0a0a;
+  margin-bottom: 1rem;
+}
+
+.feature-box:hover {
+  background-color: #faf8f8; /* Example color change */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+
+/* About Section */
+.about {
+  background: linear-gradient(to right, #f8bbd0, #b2dfdb);
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  flex: 1 1 30%;
+  min-width: 250px;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.about h2 {
+  color: #0a0a0a;
+  margin-bottom: 1rem;
+}
+
+/* CTA */
+.cta {
+  background: linear-gradient(to right, #f8bbd0, #b2dfdb);
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 40px;
+  margin: 3rem 2rem;
+}
+
+/* Footer */
+footer {
+  background: #e91e63;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+  
